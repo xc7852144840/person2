@@ -1,0 +1,203 @@
+.aa{
+  
+  width: 300px;
+  height: 300px;
+  border: 8px white solid; 
+}
+.bg{
+background-color:	#666666;
+
+}
+/*大頭貼---------------------------------------*/
+.jumbotron{
+  background: url("../img/title.jpg") no-repeat center center /cover ;
+  background-color: black;
+
+}
+/*大圖片------------------------------------*/
+.ct  {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*個人介紹--------------------------------------*/
+ .bg1{
+      margin: 0px auto;
+   background-color:rgb(120,169,174);
+    color: rgb(225,227,230);
+    width: 80%;
+    overflow: hidden;
+    color:white;
+    box-sizing: border-box;
+    border: 7px #DDDDDD solid;
+    padding: 10px;
+    }
+ /*區塊1--------------------------------------------*/
+ h1.myname {
+    color: #d8c374;
+    text-shadow: 3px 2px rgb(111,119,132), 4px 3px grey;
+}
+ /*-----------------*/
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+.circular-chart.black .circle {
+  stroke: black;
+}
+
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+/*skill-------------------------------------------*/
+.sk1{
+	padding:10px 0px 40px 0px;
+	font-size: 2.5em;
+}
+.sk{
+	width: 300px;
+    height: 100px;
+    padding-left: 44%;
+    font-weight: bold;
+    color: #3B3B3B;
+    font-size: 40px;
+    font-family:Jazz LET, fantasy;
+    letter-spacing: 12px;
+ 
+}
+.ex{
+	width: 300px;
+    height: 100px;
+    padding-left: 36%;
+    font-weight: bold;
+    color: #3B3B3B;
+    font-size: 40px;
+    font-family:Jazz LET, fantasy;
+    letter-spacing: 12px;
+}
+/*skiil circle-----------------------------*/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+/*timeline-------------------------------*/
+.blacktext{
+	color: black;
+}
+.imgb{
+	border: 7px #708090 solid;
+	margin:10 auto;
+}
+.pp div{
+	padding:15px 10px;
+}
+.fg{
+	width: 55px;
+	height:55px;
+
+}
+h3{
+	 letter-spacing: 1px;
+	 line-height: 15px;
+	 font-family: Microsoft JhengHei;
+}
+h1{
+	font-family: Microsoft JhengHei;
+}
+h2{
+	font-family: Microsoft JhengHei;
+}
+h4{
+	font-family: Microsoft JhengHei;
+}
+p{
+	font-family: Microsoft JhengHei;
+}
+.t{
+	font-family: Microsoft JhengHei;
+	font-size: 50px;
+	color: 	#444444;
+	
+}
+ul li{
+	font-family: Microsoft JhengHei;
+}
